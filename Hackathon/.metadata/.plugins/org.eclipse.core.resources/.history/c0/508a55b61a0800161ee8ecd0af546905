@@ -1,0 +1,16 @@
+package RNG;
+
+public class debug {
+
+	public static void main(String[] args) 
+	{
+		RNG hel = new RNG(20, true);
+		
+		for(int x = 0; x < 10; x++)
+		{
+			hel.test();
+		}
+
+	}
+
+}
